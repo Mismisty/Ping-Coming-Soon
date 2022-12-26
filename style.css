@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+}
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 15px;
+}
+
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    
+}
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+}
+
+h2 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+span {
+    color: black;
+    font-weight: 700;
+}
+
+
+
+.input-group {
+    margin-top: 25px;
+    display: flex;
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 28rem;
+    width: 30em;
+   
+  }
+  
+  
+  
+  input[type=email] {
+    background: #fff;
+    border: 1px solid hsl(223, 100%, 88%);
+    color: hsl(0, 0%, 59%);
+    font-size: 13px;
+    height: 33px;
+    margin: 0;
+    padding: 0 0 0 15px;
+    width: 100%;
+    border-radius: 20px;
+    outline: none;
+  }
+
+  input:focus {
+    border: 2px solid red;
+  }
+  
+  /*.error-message {
+    color: #b41111;
+    display: none;
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: 31em;
+    font-weight: 600;
+  }*/
+
+
+  
+ 
+
+  button {
+    font-size: 12px;
+    font-weight: 300;
+    margin-left: 30px;
+    width: 15em;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: hsl(223, 87%, 63%);
+    cursor: pointer;  
+  }
+  
+  
+  /* Error Styling */
+  
+  /*.error label {*/
+    /*color: #cc0033;
+  }
+  
+ /* :hover.error input[type=text] {
+    ;
+    outline: none;
+    cursor: pointer;
+  }*/
+  /*Error message appears on hover*/
+
+  /*:hover.error .error-message {
+    display: block;
+    
+   
+  }*/
+
+/*:hover hidden {
+  font-size: 20px;
+  display: block;
+
+}*/
+
+#nameError {
+  margin-top: 5px;
+  margin-left: 40em;
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.error{
+  color: #cc0033;
+
+}
+
+/*.checkemail{
+  color: #cc0033;
+}*/
+
+
+input.invalid {
+  border-color: red;
+}
+
+
+.dashboard img {
+    display:block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.media {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 90px;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+ul :hover {
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.fa-facebook-f {
+    border-radius: 50%;
+    border: hsl(223, 100%, 88%) solid 2px;
+    padding: 10px;
+    color: hsl(223, 87%, 63%);
+}
+
+.fa-twitter, 
+.fa-instagram {
+    margin-left: 10px;
+    border-radius: 50%;
+    border: hsl(223, 100%, 88%) solid 2px;
+    padding: 10px;
+    color: hsl(223, 87%, 63%);
+    
+}
+
+#reserved {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 40px;
+    color: hsl(0, 0%, 59%);  
+}
+
+@media screen and (max-width: 675px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.input-group {
+    width: 50%;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+   button {
+      width: 100%;
+      margin-top: 5em;
+      margin-left: auto;
+      justify-content: center;
+    }
+
+   #nameError {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-left: 29%;
+      margin-top: -88px;
+      justify-content: center;
+
+   }
+
+   
+}
+
+
+
+
